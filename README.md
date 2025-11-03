@@ -26,7 +26,7 @@ A simple, responsive calculator web application that performs basic arithmetic o
 - JavaScript
 
 **🌐 Live Demo:**  
-👉 [View Calculator](https://sumathi-chennuri.github.io/CodeAlpha_-Frontend-Development/Calculator/)
+👉 [View Calculator](https://sumathi-chennuri.github.io/CodeAlpha_Frontend-Development/Calculator/)
 
 ---
 
@@ -49,7 +49,7 @@ A responsive and professional personal portfolio website showcasing my projects,
 - JavaScript (for animations and smooth scrolling)
 
 **🌐 Live Demo:**  
-👉 [View Portfolio](https://sumathi-chennuri.github.io/CodeAlpha_-Frontend-Development/Portfolio/)
+👉 [View Portfolio](https://sumathi-chennuri.github.io/CodeAlpha_Frontend-Development/Portfolio/)
 
 ---
 
