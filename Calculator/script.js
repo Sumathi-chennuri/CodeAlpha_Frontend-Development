@@ -1,22 +1,21 @@
-const display = document.getElementById('display');
+let display = document.getElementById("display");
 
-function appendChar(char) {
-  display.value += char;
+function append(value) {
+  display.value += value;
 }
 
 function clearDisplay() {
-  display.value = '';
+  display.value = "";
 }
 
-function deleteChar() {
+function deleteLast() {
   display.value = display.value.slice(0, -1);
 }
 
-function calculateResult() {
+function calculate() {
   try {
     display.value = eval(display.value);
   } catch {
-    display.value = 'Error';
+    display.value = "Error";
   }
 }
-
