@@ -7,33 +7,77 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- ===== NAVBAR ===== -->
   <header>
-    <h1>Sumathi Chennuri</h1>
-    <p>Frontend Developer | Designer | Coder</p>
+    <nav class="navbar">
+      <h2 class="logo">MyPortfolio</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="about">
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm <span>CHENNURI SUMATHI</span></h1>
+      <p>A passionate web developer building clean, interactive websites.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
     <h2>About Me</h2>
-    <p>I’m a passionate frontend developer skilled in HTML, CSS, and JavaScript. I love building responsive and creative web experiences.</p>
+    <p>
+      I’m a web developer skilled in HTML, CSS, and JavaScript. I love turning ideas into interactive, functional, and visually appealing websites.
+    </p>
   </section>
 
-  <section id="projects">
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Python</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
     <h2>Projects</h2>
-    <ul>
-      <li>Calculator App</li>
-      <li>Portfolio Website</li>
-      <li>Image Gallery</li>
-    </ul>
+    <div class="project-list">
+      <div class="card">
+        <h3>🧮 Calculator</h3>
+        <p>A simple responsive calculator built with HTML, CSS, and JS.</p>
+        <a href="../calculator/index.html" target="_blank">View</a>
+      </div>
+      <div class="card">
+        <h3>💼 Portfolio Website</h3>
+        <p>This personal portfolio showcases my skills and projects.</p>
+        <a href="#contact">Contact Me</a>
+      </div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: yourname@email.com</p>
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:sumachennuri523@gmail.com">sumachennuri523@gmail.com</a></p>
+    <p>🌐 GitHub: <a href="https://github.com/Sumathi-chennuri" target="_blank">@Sumathichennuri</a></p>
   </section>
 
+  <!-- ===== FOOTER ===== -->
   <footer>
-    <p>© 2025 Sumathi Chennuri | All Rights Reserved</p>
+    <p>© 2025 chennuri sumathi | All Rights Reserved</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
