@@ -57,4 +57,4 @@ A responsive and professional personal portfolio website showcasing my projects,
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Sumathi-chennuri/CodeAlpha_-Frontend-Development.git
+   git clone https://github.com/Sumathi-chennuri/CodeAlpha_Frontend-Development.git
