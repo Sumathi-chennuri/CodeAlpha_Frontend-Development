@@ -1,23 +1,43 @@
-function append(value) {
-  const display = document.getElementById('display');
-  display.value += value;
+const display = document.getElementById("display");
+
+function appendNumber(num) {
+  display.value += num;
+}
+
+function appendOperator(op) {
+  display.value += op;
+}
+
+function appendDot() {
+  if (!display.value.endsWith('.')) display.value += '.';
 }
 
 function clearDisplay() {
-  const display = document.getElementById('display');
   display.value = '';
 }
 
 function deleteLast() {
-  const display = document.getElementById('display');
   display.value = display.value.slice(0, -1);
 }
 
 function calculate() {
-  const display = document.getElementById('display');
   try {
     display.value = eval(display.value);
   } catch {
     display.value = 'Error';
   }
 }
+
+// Bonus: Keyboard support
+document.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if (!isNaN(key) || ['+', '-', '*', '/', '.'].includes(key)) {
+    display.value += key;
+  } else if (key === 'Enter') {
+    calculate();
+  } else if (key === 'Backspace') {
+    deleteLast();
+  } else if (key.toLowerCase() === 'c') {
+    clearDisplay();
+  }
+});
